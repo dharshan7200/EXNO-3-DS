@@ -216,7 +216,7 @@ We use this categorical data encoding technique when the features are nominal(do
 
     sm.qqplot(df['Highly Negative Skew_1'], line='45')
     plt.show()
-    ![image](https://github.com/dharshan7200/EXNO-3-DS/assets/138850116/21675f5a-4c35-4428-8422-e88beb2a4770)
+![image](https://github.com/dharshan7200/EXNO-3-DS/assets/138850116/2ea7fa46-700c-48b2-a0cd-3da4ec3defc8)
 
 
   # RESULT:
