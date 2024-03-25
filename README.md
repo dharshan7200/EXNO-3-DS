@@ -209,6 +209,15 @@ We use this categorical data encoding technique when the features are nominal(do
 
   ![m 3](https://github.com/nanditha121/EXNO-3-DS/assets/142209508/880ace95-7dd1-4732-941d-e007439a6fc5)
 
+    df["Highly Negative Skew_1"]=qt.fit_transform(df[["Highly Negative Skew"]])
+    sm.qqplot(df['Highly Negative Skew'], line='45')
+    plt.show()
+![image](https://github.com/dharshan7200/EXNO-3-DS/assets/138850116/e548e24e-0d74-4c02-b060-81fece0158e3)
+
+    sm.qqplot(df['Highly Negative Skew_1'], line='45')
+    plt.show()
+    ![image](https://github.com/dharshan7200/EXNO-3-DS/assets/138850116/21675f5a-4c35-4428-8422-e88beb2a4770)
+
 
   # RESULT:
         Hence performing Feature Encoding and Transformation process is Successful.
